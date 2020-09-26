@@ -9,10 +9,9 @@ package_directory = os.path.dirname(os.path.realpath(__file__))
 
 class InstallCommand(Command):
     """
-    Install Demo Package into a project.
+    Installs needed configuration files into a Masonite project
 
-    command:name
-        {argument : description}
+    package:install
     """
 
     def handle(self):
