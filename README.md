@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-
-[![Test Application](https://github.com/girardinsamuel/masonite-demo-package/workflows/Test%20Application/badge.svg?branch=master)](https://github.com/girardinsamuel/masonite-demo-package/actions)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![codecov](https://codecov.io/gh/girardinsamuel/masonite-demo-package/branch/master/graph/badge.svg)](https://codecov.io/gh/girardinsamuel/masonite-demo-package/)
-<img src="https://img.shields.io/badge/python-3.6+-blue.svg" alt="Python Version">
-
-[![PyPI version](https://badge.fury.io/py/masonite-demo-package.svg)](https://badge.fury.io/py/masonite-demo-package)
-
+  <img alt="GitHub Workflow Status (branch)" src="https://img.shields.io/github/workflow/status/user/repo/workflow/master">
+  <img alt="Coveralls github branch" src="https://img.shields.io/coveralls/github/girardinsamuel/masonite-demo-package/master">
+  <img src="https://pyup.io/repos/github/girardinsamuel/masonite-demo-package/shield.svg" class="badge-modal-trigger shield" data-toggle="tooltip" data-placement="top" title="" id="shield" data-original-title="show url">
+  <img alt="PyPI" src="https://img.shields.io/pypi/v/masonite-demo-package">
+  <img src="https://img.shields.io/badge/python-3.6+-blue.svg" alt="Python Version">
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/girardinsamuel/masonite-demo-package">
+  <img alt="License" src="https://img.shields.io/github/license/girardinsamuel/masonite-demo-package">
+  <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 </p>
 
 ## Introduction
