@@ -10,7 +10,8 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![codecov](https://codecov.io/gh/girardinsamuel/masonite-demo-package/branch/master/graph/badge.svg)](https://codecov.io/gh/girardinsamuel/masonite-demo-package/)
 <img src="https://img.shields.io/badge/python-3.6+-blue.svg" alt="Python Version">
-<a href="https://pypi.org/project/masonite-demo-package/"><img alt="PyPI" src="https://img.shields.io/pypi/v/masonite-demo-package"></a>
+
+[![PyPI version](https://badge.fury.io/py/masonite-demo-package.svg)](https://badge.fury.io/py/masonite-demo-package)
 
 </p>
 
