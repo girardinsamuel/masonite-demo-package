@@ -17,6 +17,7 @@
 ## Introduction
 
 Demo package to show Masonite cookiecutter scaffolding result.
+
 **This package has been generated with [Cookiecutter Masonite Package](https://github.com/girardinsamuel/cookiecutter-masonite-package).**
 
 ## Features
@@ -40,12 +41,25 @@ pip install masonite-demo-package
 
 ## Configuration
 
-Add DemoPackageProvider to your project
+Add DemoPackageProvider to your project in `config/providers.py`:
 
 ```python
+# config/providers.py
 # ...
 from masonite.demo_package import DemoPackageProvider
+
+# ...
+PROVIDERS = [
+    # ...
+
+    # Third Party Providers
+    DemoPackageProvider,
+
+    # ...
+]
 ```
+
+Then install OR publish the reqired package files (configuration, views ...):
 
 ```bash
 python craft demo_package:install
