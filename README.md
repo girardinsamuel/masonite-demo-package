@@ -1,4 +1,4 @@
-# Demo Package
+# Masonite Demo Package
 
 <p align="center">
 <img src="https://i.imgur.com/rEXcoMn.png" width="130px">
