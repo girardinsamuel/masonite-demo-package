@@ -16,6 +16,7 @@ from masonite.providers import (
     CacheProvider,
     CsrfProvider,
 )
+from masonite.demo_package import  DemoPackageProvider
 
 """
 |--------------------------------------------------------------------------
@@ -52,6 +53,7 @@ PROVIDERS = [
     # HelpersProvider,
 
     # Third Party Providers
+    DemoPackageProvider,
 
     # Application Providers
 
