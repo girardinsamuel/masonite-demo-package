@@ -23,7 +23,7 @@ Demo package to show Masonite cookiecutter scaffolding result.
 
 **This package has been generated with [Cookiecutter Masonite Package](https://github.com/girardinsamuel/cookiecutter-masonite-package). The badges will display correctly at first Github release and first PyPi publish.**
 
-** To report bugs or request features please use the [Cookiecutter Masonite Package](https://github.com/girardinsamuel/cookiecutter-masonite-package) repo directly.**
+**To report bugs or request features please use the [Cookiecutter Masonite Package](https://github.com/girardinsamuel/cookiecutter-masonite-package) repo directly.**
 
 ## Features
 
