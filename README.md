@@ -4,11 +4,13 @@
 <img src="https://i.imgur.com/rEXcoMn.png" width="130px">
 </p>
 
+<p align="center">
 [![Test Application](https://github.com/girardinsamuel/masonite-demo-package/workflows/Test%20Application/badge.svg?branch=master)](https://github.com/girardinsamuel/masonite-demo-package/actions)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![codecov](https://codecov.io/gh/girardinsamuel/masonite-demo-package/branch/master/graph/badge.svg)](https://codecov.io/gh/girardinsamuel/masonite-demo-package/)
 <img src="https://img.shields.io/badge/python-3.6+-blue.svg" alt="Python Version">
 <a href="https://pypi.org/project/masonite-demo-package/"><img alt="PyPI" src="https://img.shields.io/pypi/v/masonite-demo-package"></a>
+</p>
 
 ## Introduction
 
