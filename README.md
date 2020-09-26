@@ -16,7 +16,8 @@
 
 ## Introduction
 
-Demo package to show Masonite cookiecutter scaffolding result
+Demo package to show Masonite cookiecutter scaffolding result.
+**This package has been generated with [Cookiecutter Masonite Package](https://github.com/girardinsamuel/cookiecutter-masonite-package).**
 
 ## Features
 
