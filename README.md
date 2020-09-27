@@ -86,4 +86,4 @@ Please read the [Contributing Documentation](CONTRIBUTING.md) here.
 
 ## License
 
-Demo Package is open-sourced software licensed under the [MIT license](LICENSE).
+Masonite Demo Package is open-sourced software licensed under the [MIT license](LICENSE).

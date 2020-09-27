@@ -13,7 +13,7 @@ setup(
         "masonite.demo_package.commands",
     ],
     package_dir={"": "src"},
-    description="Demo Package",
+    description="Masonite Demo Package",
     long_description="Demo package to show Masonite cookiecutter scaffolding result",
     # The project's main homepage.
     url="https://github.com/girardinsamuel/masonite-demo-package",

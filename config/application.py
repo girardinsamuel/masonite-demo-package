@@ -13,7 +13,7 @@ import os
 |
 """
 
-NAME = 'Demo Package'
+NAME = 'Masonite Demo Package'
 
 """
 |--------------------------------------------------------------------------
