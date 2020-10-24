@@ -64,7 +64,7 @@ PROVIDERS = [
 ]
 ```
 
-Then install OR publish the reqired package files (configuration, views ...):
+Then install OR publish the required package files (configuration, views ...):
 
 ```bash
 python craft demo_package:install
@@ -86,4 +86,6 @@ Please read the [Contributing Documentation](CONTRIBUTING.md) here.
 
 ## License
 
+
 Masonite Demo Package is open-sourced software licensed under the [MIT license](LICENSE).
+
