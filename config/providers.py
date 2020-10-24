@@ -16,6 +16,8 @@ from masonite.providers import (
     CacheProvider,
     CsrfProvider,
 )
+from masoniteorm.providers.ORMProvider import ORMProvider
+
 from masonite.demo_package import  DemoPackageProvider
 
 """
@@ -34,27 +36,27 @@ from masonite.demo_package import  DemoPackageProvider
 PROVIDERS = [
     # Framework Providers
     AppProvider,
-    AuthenticationProvider,
     SessionProvider,
     RouteProvider,
     StatusCodeProvider,
-    # WhitenoiseProvider,
+    WhitenoiseProvider,
     ViewProvider,
+    AuthenticationProvider,
+    ORMProvider,
 
     # Optional Framework Providers
-    # SassProvider,
-    # MailProvider,
-    # UploadProvider,
-    # QueueProvider,
-    # CacheProvider,
-    # BroadcastProvider,
-    # CacheProvider,
+    MailProvider,
+    UploadProvider,
+    QueueProvider,
+    CacheProvider,
+    BroadcastProvider,
+    CacheProvider,
     CsrfProvider,
-    # HelpersProvider,
+    HelpersProvider,
 
     # Third Party Providers
     DemoPackageProvider,
 
-    # Application Providers
+    # Application Provider
 
 ]
