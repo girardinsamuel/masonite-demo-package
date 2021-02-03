@@ -4,6 +4,8 @@ from masonite.routes import Get
 
 class TestDemoPackage(TestCase):
 
+    sqlite = False
+
     def setUp(self):
         super().setUp()
         self.routes(only=[
