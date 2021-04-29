@@ -16,7 +16,8 @@ from masonite.providers import (
 )
 from masoniteorm.providers import ORMProvider
 
-from masonite.demo_package import DemoPackageProvider
+# register local package
+from src.masonite.demo_package import DemoPackageProvider
 
 PROVIDERS = [
     FrameworkProvider,
