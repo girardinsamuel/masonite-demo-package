@@ -16,11 +16,7 @@ setup(
         "masonite.demo_package.commands",
     ],
     package_dir={"": "src"},
-    description="""Demo package to show Masonite cookiecutter scaffolding result.
-
-**This package has been generated with [Cookiecutter Masonite Package](https://github.com/girardinsamuel/cookiecutter-masonite-package). The badges will display correctly at first Github release and first PyPi publish.**
-
-**To report bugs or request features please use the [Cookiecutter Masonite Package](https://github.com/girardinsamuel/cookiecutter-masonite-package) repo directly.**""",
+    description="Demo package to show Masonite package generator.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     # The project's main homepage.
