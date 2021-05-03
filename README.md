@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Demo%20Package.png?theme=light&packageManager=pip+install&packageName=masonite-demo-package&pattern=floorTile&style=style_1&description=Demo%20package%20to%20show%20Masonite%20package%20generator.&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Fgblobscdn.gitbook.com%2Fspaces%2F-L9uc-9XAlqhXkBwrLMA%2Favatar.png">
+    <img src="https://banners.beyondco.de/Demo%20Package.png?theme=light&packageManager=pip+install&packageName=masonite-demo-package&pattern=topography&style=style_1&description=Demo%20package%20to%20show%20Masonite%20package%20generator.&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Fgblobscdn.gitbook.com%2Fspaces%2F-L9uc-9XAlqhXkBwrLMA%2Favatar.png">
 </p>
 <p align="center">
   <a href="https://docs.masoniteproject.com">
@@ -76,6 +76,10 @@ _Explain how to use your package_
 ## Contributing
 
 Please read the [Contributing Documentation](CONTRIBUTING.md) here.
+
+## Maintainers
+
+- [Samuel Girardin](https://www.github.com/girardinsamuel)
 
 ## License
 
