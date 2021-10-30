@@ -1,17 +1,18 @@
 """A DemoPackageProvider Service Provider."""
 
-from masonite.provider import ServiceProvider
-from masonite.demo_package.commands.InstallCommand import InstallCommand
+from masonite.providers import Provider
+from ..commands.InstallCommand import InstallCommand
 
 
-class DemoPackageProvider(ServiceProvider):
+class DemoPackageProvider(Provider):
     """Provides Services To The Service Container."""
 
-    wsgi = False
+    def __init__(self, application):
+        self.application = application
 
     def register(self):
         """Register objects into the Service Container."""
-        self.app.bind("InstallCommand", InstallCommand())
+        self.application.make("commands").add(InstallCommand())
 
     def boot(self):
         """Boots services required by the container."""
