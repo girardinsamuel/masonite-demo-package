@@ -10,11 +10,9 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version="0.0.1",
     packages=[
-        "masonite.demo_package",
-        "masonite.demo_package.providers",
-        "masonite.demo_package.config",
-        "masonite.demo_package.controllers",
-        "masonite.demo_package.commands",
+        "demo_package",
+        "demo_package.providers",
+        "demo_package.config",
     ],
     package_dir={"": "src"},
     description="Demo package to show Masonite package generator.",
@@ -56,6 +54,8 @@ setup(
         "Topic :: Internet :: WWW/HTTP :: WSGI",
         "Topic :: Software Development :: Libraries :: Application Frameworks",
         "Topic :: Software Development :: Libraries :: Python Modules",
+        # List package on masonite packages website
+        "Framework :: Masonite",
     ],
     # What does your project relate to?
     keywords="Masonite, Python, Development",

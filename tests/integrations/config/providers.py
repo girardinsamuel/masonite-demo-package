@@ -13,15 +13,15 @@ from masonite.providers import (
     HelpersProvider,
     BroadcastProvider,
     AuthenticationProvider,
+    AuthorizationProvider,
     HashServiceProvider,
-    ValidationProvider
+    ORMProvider,
 )
+
+
 from masonite.scheduling.providers import ScheduleProvider
 from masonite.notification.providers import NotificationProvider
-from masoniteorm.providers import ORMProvider
-
-# register local package
-from src.masonite.demo_package import DemoPackageProvider
+from masonite.validation.providers import ValidationProvider
 
 PROVIDERS = [
     FrameworkProvider,
@@ -42,6 +42,6 @@ PROVIDERS = [
     HashServiceProvider,
     AuthenticationProvider,
     ValidationProvider,
-    ORMProvider,
-    DemoPackageProvider,
+    AuthorizationProvider,
+    ORMProvider
 ]
